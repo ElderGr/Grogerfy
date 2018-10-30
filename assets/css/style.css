@@ -4,6 +4,7 @@ body{
     font-family: 'Lato', sans-serif;
     color: white;  
     background-image: linear-gradient(#F037a5 -60%, #fae62d 140%) ;
+    background-repeat: no-repeat;
     height:45.8vw;
     background-size: cover;
     width: 100vw;
@@ -18,25 +19,25 @@ header{
 }
 
 .logo a>img{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 132px;
-    height: 40px;
-    background-size: 132px 40px;
-    margin-left: 15px;
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+    /*width: 132px;*/
+    height: 3.4vw;
+    /*background-size: 132px 40px;*/
+    /*margin-left: 15px;*/
 }
 
 .itens{
     color: white;
-    position: relative;
-    left: 250px;
+    /*position: relative;*/
+    /*left: 250px;*/
 }
 
 .itens >a{
     text-decoration: none;
     color: white;
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     padding: 20px;
     line-height: 2.0;
 }
@@ -45,8 +46,9 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 1170px;
+    width: 100%;
     align-items: center;
+    padding: 1.5%;
 }
 
 #inscreva{
@@ -66,6 +68,7 @@ main{
     height: 45.8vw;
     width: 100vw;
     display: flex;
+    margin: 0;
     justify-content: center;
 } 
 
@@ -74,6 +77,7 @@ section{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+
 }
 
 main>section>div:nth-child(1){
@@ -114,6 +118,66 @@ header>div>nav>a:hover{
     color: rgb(65, 226, 65);
 }
 
+@media screen and (max-width: 600px) {
+    .logo a>img {
+        height: 8vw;
+    }
+}
+
+
+/*footer*/
+footer{
+    background-color: black;
+    width: 100vw;
+}
+
+.logo-rodape{
+    width: 190px;
+}
 
 
 
+ul, li {
+   color:white;
+   text-align: left;
+   list-style-type: none;
+
+}
+
+h5 {
+    color: gray ;
+    text-align: center;
+}
+
+    
+
+.footer-pai{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+li:hover{
+    color: green;
+}
+
+
+.espaço-imagem{
+    display: flex;    
+}
+
+.espaço-imagem>img{
+    width: 60px;
+    height: 60px;
+}
+
+.info{
+    display: flex;
+}
+
+.ultimas-rodape{
+    color: gray;
+    display: flex;
+    flex-direction: row;
+}

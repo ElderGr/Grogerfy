@@ -5,9 +5,9 @@ body{
     color: white;  
     background-image: linear-gradient(#F037a5 -60%, #fae62d 140%) ;
     background-repeat: no-repeat;
-    height:45.8vw;
+    /* height:45.8vw; */
     background-size: cover;
-    width: 100vw;
+    width: 100%;
 }
 
 
@@ -66,7 +66,7 @@ main{
     background-size: 100vw;
     background-position: 48%;
     height: 45.8vw;
-    width: 100vw;
+    width: 100%;
     display: flex;
     margin: 0;
     justify-content: center;
@@ -128,14 +128,28 @@ header>div>nav>a:hover{
 /*footer*/
 footer{
     background-color: black;
-    width: 100vw;
+    width: 100%;
+    height: 30vw;
+    padding: 5% 0;
 }
 
 .logo-rodape{
-    width: 190px;
+    width: 100%;
 }
 
+footer>div>div:nth-child(1){
+    width: 12%;
+}
 
+.container-logo{
+    background-color: rgb(65, 65, 65);
+    width: 15%;
+    height: 15%;
+    padding: 4% 4%;
+    align-self: center;
+    border-radius: 100%;
+    margin: 1.5%;
+}
 
 ul, li {
    color:white;
@@ -151,7 +165,7 @@ h5 {
 
     
 
-.footer-pai{
+footer>div:nth-child(1){
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -164,13 +178,12 @@ li:hover{
 
 
 .espaço-imagem{
-    display: flex;    
+    width: 20%;
+    display: flex;
+    justify-content: center;
 }
 
-.espaço-imagem>img{
-    width: 60px;
-    height: 60px;
-}
+
 
 .info{
     display: flex;
